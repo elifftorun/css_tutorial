@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    
+    <form action="kaydet.html" method="post">
+    <fieldset>
+       <Legend> <h1>Mesaj Gönder</h1></Legend>
+       <label for="ad"> </label>
+        <input type="text"name="ad"id="ad"placeholder="Adınızı giriniz"><br><br>
+
+        <label for="eposta"> </label>
+        <input type="email"name="eposta"id="eposta"placeholder="E-posta adresinizi giriniz"><br><br>
+
+        <input type="radio"name="cinsiyet"id="kiz">
+        <label for="kiz">Kız</label>
+
+        <input type="radio"name="cinsiyet"id="erkek">
+        <label for="erkek">Erkek</label><br> <br>
+
+        <label for="istek"> </label>
+       <select name="istek" id="istek"><br><br>
+       <option value="1">Bilgi almak istiyorum</option>
+       <option value="2">Öneride bulunmak istiyorum</option>
+       <option value="3">Şikayetimi iletmek istiyorum</option>
+       </select>
+       <br><br>
+       <textarea name="aciklama" id="aciklama" cols="50"rows="10">Lorem ipsum dolor sit, amet consectetur adipisicing elit.Provident modi suscipit incidunt dicta quae! Voluptas consectetur nisi quas tenetur, quod quos, placeat officia ex quisquam exercitationem odio necessitatibus rerum? Voluptatem.</textarea><br><br>
+       <button type="submit">Temizle</button> <button type="submit">Kaydet</button>
+
+    </fieldset>
+
+</form>
+</body>
+</html>
